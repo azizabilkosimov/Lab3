@@ -38,12 +38,12 @@ public class Main {
         mySql.updateCustomerEmail(2, "mary.updated@example.com");
         mongo.updateCustomerEmail(2, "mary.updated@example.com");
 
-        //mySql.deleteCustomer(1);
-        //mySql.deleteCustomer(2);
-        //mySql.deleteCustomer(3);
+        mySql.deleteCustomer(1);
+        mySql.deleteCustomer(2);
+        mySql.deleteCustomer(3);
 
-        //mongo.deleteCustomer(1);
-        //mongo.deleteCustomer(2);
-        //mongo.deleteCustomer(3);
+        mongo.deleteCustomer(1);
+        mongo.deleteCustomer(2);
+        mongo.deleteCustomer(3);
     }
 }
